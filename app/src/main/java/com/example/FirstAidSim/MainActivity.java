@@ -29,11 +29,8 @@ public class MainActivity extends AppCompatActivity {
         register_button = (Button)findViewById(R.id.register_id);
         register_button.setOnClickListener(register_buttonListener);
 
-        // I ADDED THIS!
-        // Here is a second one!
-        // Here is a third one
-        // Add -> Commit -> Push
-        // Hello
+        // To add -> commit -> push
+        // 1. Go to VCS ->
 
     }
 
