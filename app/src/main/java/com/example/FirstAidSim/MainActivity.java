@@ -29,6 +29,12 @@ public class MainActivity extends AppCompatActivity {
     // Desc: User enters email address
     // ID: editTextTextEmailAddress
 
+    private EditText password;
+    //Desc: User enters password
+    // ID: editTextTextPassword
+    //Edit made by: Mitchell on 2/25/21, 3:30PM
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +52,9 @@ public class MainActivity extends AppCompatActivity {
         register_button.setOnClickListener(register_buttonListener);
 
         // EditText Objects
+        //Edit made by: Mitchell on 2/25/21, 3:30PM
         username = (EditText) findViewById(R.id.editTextTextEmailAddress);
+        password = (EditText) findViewById(R.id.editTextTextPassword);
 
 
         // TESTING TESTING TESTING
