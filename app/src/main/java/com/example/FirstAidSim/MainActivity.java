@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         // To Commit
         // 2.0) Go to VCS -> Commit (Ctrl + k)
-        // 2.1) Under the Commit Pane (found on the left eddge of your screen),
+        // 2.1) Under the Commit Pane (found on the left edge of your screen),
         //      check all the checkboxes, type some comment, then click "Commit"
         //      A popup box will show up prompting you to review, click "Commit" again
 
