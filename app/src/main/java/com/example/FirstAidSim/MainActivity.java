@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         register_button.setOnClickListener(register_buttonListener);
 
         // I ADDED THIS!
+        // Here is a second one!
 
 
     }
