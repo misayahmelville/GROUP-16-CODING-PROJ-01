@@ -1,3 +1,15 @@
+// To Add
+// 1.0) Go to VCS -> Git -> Add (Ctrl + Alt + A)
+
+// To Commit
+// 2.0) Go to VCS -> Commit (Ctrl + k)
+// 2.1) Under the Commit Pane (found on the left edge of your screen),
+//      check all the checkboxes, type some comment, then click "Commit"
+//      A popup box will show up prompting you to review, click "Commit" again
+
+// To Push
+// 3.0) Go to VCS -> Git -> Push (Ctrl + Shift + k)
+
 package com.example.FirstAidSim;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +24,11 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     protected Button login_button,register_button;
+
     private EditText username;
+    // Desc: User enters email address
+    // ID: editTextTextEmailAddress
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,17 +45,8 @@ public class MainActivity extends AppCompatActivity {
         register_button = (Button)findViewById(R.id.register_id);
         register_button.setOnClickListener(register_buttonListener);
 
-        // To Add
-        // 1.0) Go to VCS -> Git -> Add (Ctrl + Alt + A)
-
-        // To Commit
-        // 2.0) Go to VCS -> Commit (Ctrl + k)
-        // 2.1) Under the Commit Pane (found on the left edge of your screen),
-        //      check all the checkboxes, type some comment, then click "Commit"
-        //      A popup box will show up prompting you to review, click "Commit" again
-
-        // To Push
-        // 3.0) Go to VCS -> Git -> Push (Ctrl + Shift + k)
+        // EditText Objects
+        username = (EditText) findViewById(R.id.editTextTextEmailAddress);
 
 
     }
