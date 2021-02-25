@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         register_button = (Button)findViewById(R.id.register_id);
         register_button.setOnClickListener(register_buttonListener);
 
+        // I ADDED THIS!
 
 
     }
