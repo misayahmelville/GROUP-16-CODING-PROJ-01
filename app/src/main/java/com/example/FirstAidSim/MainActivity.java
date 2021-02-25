@@ -29,13 +29,17 @@ public class MainActivity extends AppCompatActivity {
         register_button = (Button)findViewById(R.id.register_id);
         register_button.setOnClickListener(register_buttonListener);
 
-        // To add -> commit -> push
-        // 1. Go to VCS -> Git -> Add (Ctrl + Alt + A)
+        // To Add
+        // 1.0) Go to VCS -> Git -> Add (Ctrl + Alt + A)
 
-        // To commit
+        // To Commit
         // 2.0) Go to VCS -> Commit (Ctrl + k)
         // 2.1) Under the Commit Pane (found on the left eddge of your screen),
         //      check all the checkboxes, type some comment, then click "Commit"
+        //      A popup box will show up prompting you to review, click "Commit" again
+
+        // To Push
+        // 3.0) Go to VCS -> Push (Ctrl + Shift + k)
 
 
     }
