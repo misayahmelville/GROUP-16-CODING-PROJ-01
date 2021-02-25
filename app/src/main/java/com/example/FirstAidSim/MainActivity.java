@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         //      A popup box will show up prompting you to review, click "Commit" again
 
         // To Push
-        // 3.0) Go to VCS -> Push (Ctrl + Shift + k)
+        // 3.0) Go to VCS -> Git -> Push (Ctrl + Shift + k)
 
 
     }
