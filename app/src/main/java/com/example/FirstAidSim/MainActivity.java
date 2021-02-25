@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         username = (EditText) findViewById(R.id.editTextTextEmailAddress);
 
 
+        // TESTING TESTING TESTING
+
     }
 
     public View.OnClickListener login_buttonListener = v -> {
