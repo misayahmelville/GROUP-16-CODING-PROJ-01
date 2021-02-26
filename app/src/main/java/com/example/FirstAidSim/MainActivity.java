@@ -21,6 +21,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+//HERE IS MY COMMENT
+
 public class MainActivity extends AppCompatActivity {
 
     protected Button login_button,register_button;
