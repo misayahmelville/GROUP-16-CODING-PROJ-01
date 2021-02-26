@@ -23,7 +23,6 @@ import android.widget.EditText;
 
 //HERE IS MY COMMENT
 // MY COMMENT DOWN HERE
-//Melville comment test
 
 public class MainActivity extends AppCompatActivity {
 
