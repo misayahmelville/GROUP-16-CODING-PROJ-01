@@ -15,7 +15,7 @@ public class DoneRegister extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         log_in_button = (Button) findViewById(R.id.log_in);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.register_finished);
 
 
         log_in_button.setOnClickListener(new View.OnClickListener() {

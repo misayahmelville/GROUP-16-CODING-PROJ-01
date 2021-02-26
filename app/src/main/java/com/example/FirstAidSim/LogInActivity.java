@@ -41,8 +41,10 @@ public class LogInActivity extends AppCompatActivity {
         courses_list = new ArrayList<>();
         courses_list.add(new Course("CPR",cprDescription,R.drawable.cpr));
         courses_list.add(new Course("AED",aedDescription,R.drawable.aed));
-        courses_list.add(new Course("ASD",aedDescription,R.drawable.aed));
-
+        courses_list.add(new Course("Child care",aedDescription,R.drawable.care));
+        courses_list.add(new Course("Fire safety",cprDescription,R.drawable.fire));
+        courses_list.add(new Course("Water safety",aedDescription,R.drawable.swim));
+        courses_list.add(new Course("Scene and safety assessment",aedDescription,R.drawable.ic_launcher_foreground));
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recylerView_id);
         RecyclerViewAdapter mAdapter = new RecyclerViewAdapter(this,courses_list);

@@ -12,6 +12,7 @@
         <activity android:name="com.example.FirstAidSim.RegisterActivity"></activity>
         <activity android:name="com.example.FirstAidSim.LogInActivity" />
         <activity android:name=".CourseActivity"></activity>
+        <activity android:name=".DoneRegister"></activity>
         <activity android:name="com.example.FirstAidSim.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
