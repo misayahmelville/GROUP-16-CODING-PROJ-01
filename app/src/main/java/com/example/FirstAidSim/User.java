@@ -9,6 +9,10 @@ public class User implements Serializable {
     String username; //User's name
     String password; //User's password
 
+    String orgName; //Name of org or "none" if individual
+    String position; //Admin, employee, or individual
+
+
     public User(String firstName, String lastName, int age, String username, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -56,5 +60,20 @@ public class User implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    //Only do the following if they are part of an org
+    public void setOrg(String orgName){
+        this.orgName = orgName;
+    }
+    public void  setPosition(String position){
+        this.position = position;
+    }
+
+    public String getOrg(){
+        return orgName;
+    }
+    public String getPosition(){
+        return position;
     }
 }
