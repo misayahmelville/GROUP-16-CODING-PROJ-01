@@ -1,6 +1,8 @@
 package com.example.FirstAidSim;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     String firstName; //User's First name
     String lastName; //User's last name
     int age;

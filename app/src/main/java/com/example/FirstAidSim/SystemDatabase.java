@@ -1,5 +1,7 @@
 package com.example.FirstAidSim;
 
+import android.util.Log;
+
 import java.util.Vector;
 
 //The system database will hold all every user's information
@@ -13,6 +15,11 @@ public class SystemDatabase {
         usersStored = newuser.size();
     }
 
+    // Adds a user to the database where the arguments is of User object type
+    public void addUser(User user){
+        newuser.add(user);
+        usersStored = newuser.size();
+    }
 
     // Returns the index of the username (if found)
     // otherwise, returns -999 (not found)
@@ -37,16 +44,17 @@ public class SystemDatabase {
     // Verifies whether the password input is valid based on the username entry
     // Returns true for valid password, else, returns false
     public Boolean passwordValidation(String _username, String _password){
-        if(usernameIsFound(_username).equals(false))
+        if(usernameIsFound(_username).equals(false)){
             return false; // Username is not found
+        }
         else{
             Integer index = searchUser(_username);
             String password = this.newuser.elementAt(index).getPassword( );
-            if(_password.equals(password))
-                return true;
+            if(_password.equals(password)){
+                return  true;
+            }
         }
         return false; // Password is NOT valid
     }
-
 }
 
