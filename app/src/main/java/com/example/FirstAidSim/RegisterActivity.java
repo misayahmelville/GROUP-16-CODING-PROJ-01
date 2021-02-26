@@ -50,7 +50,8 @@ public class RegisterActivity extends AppCompatActivity{
                 Integer age = Integer.parseInt(register_age.getText().toString());
                 String username = register_username.getText().toString();
                 String password = register_password.getText().toString();
-                Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+
+                Intent intent = new Intent(RegisterActivity.this, DoneRegister.class);
                 intent.putExtra(USER_KEY, new User(firstName, lastName, age, username, password));
                 startActivity(intent);
             }
