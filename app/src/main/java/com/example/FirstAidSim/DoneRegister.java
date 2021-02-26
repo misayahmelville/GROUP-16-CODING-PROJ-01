@@ -11,7 +11,7 @@ public class DoneRegister extends AppCompatActivity {
     final static String USER_KEY = "USER";
     User user;
 
-
+//comment
     private Button log_in_button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
