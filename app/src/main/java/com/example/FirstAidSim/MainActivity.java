@@ -22,6 +22,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 //HERE IS MY COMMENT
+// MY COMMENT DOWN HERE
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,10 +60,12 @@ public class MainActivity extends AppCompatActivity {
         password = (EditText) findViewById(R.id.editTextTextPassword);
 
 
-        // TESTING TESTING TESTING
-        // TEST2 MITCHELL
-        //TEST 3 MITCHELL
 
+    }
+
+    private Boolean username_password_verification(String _username, String _password){
+
+        return false;
     }
 
     public View.OnClickListener login_buttonListener = v -> {
