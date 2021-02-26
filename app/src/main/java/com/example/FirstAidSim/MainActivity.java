@@ -71,9 +71,8 @@ public class MainActivity extends AppCompatActivity{
         Intent i = new Intent(MainActivity.this,LogInActivity.class);
         startActivity(i);
     }
+
     public View.OnClickListener login_buttonListener = v -> {
-
-
         String _username = username.getText().toString();
         String _password = password.getText().toString();
 
