@@ -22,11 +22,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 //HERE IS MY COMMENT
-// Michae Vincent
-//  FSD:LKJ
-//  FSDJLFKDS:
-//  SDFKLJLK
-//  KJSD:LFJKLDS <== Mine ends Here
+// MY COMMENT DOWN HERE
+//Mitchell : new comment here ---------
 
 public class MainActivity extends AppCompatActivity {
 
