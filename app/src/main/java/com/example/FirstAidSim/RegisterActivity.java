@@ -2,7 +2,9 @@ package com.example.FirstAidSim;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -32,6 +34,17 @@ public class RegisterActivity extends AppCompatActivity {
         register_last_name = (EditText)findViewById(R.id.editTextTextPersonName5);
         register_age = (EditText)findViewById(R.id.editTextNumber);
 
+        //Register button
+        registerButton = (Button)findViewById(R.id.submitRegister_id);
+        registerButton.setOnClickListener((register_buttonListener));
+    }
 
+    public View.OnClickListener register_buttonListener = v -> {
+        openRegisterDoneActivity();
+    };
+
+    public void openRegisterDoneActivity(){
+        Intent i = new Intent(RegisterActivity.this,DoneRegister.class);
+        startActivity(i);
     }
 }
