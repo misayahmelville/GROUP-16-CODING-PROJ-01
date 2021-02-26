@@ -23,7 +23,7 @@ import android.widget.EditText;
 
 //HERE IS MY COMMENT
 // MY COMMENT DOWN HERE
-//Mitchell : new comment here ---------
+//Mitchell : TEST 12345 ---------
 
 public class MainActivity extends AppCompatActivity {
 
