@@ -11,8 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign In"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="426dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -20,7 +23,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Thank you for registering!"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="352dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="352dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
