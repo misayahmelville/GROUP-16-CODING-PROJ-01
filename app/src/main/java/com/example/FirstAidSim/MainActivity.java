@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity{
         register_button = (Button)findViewById(R.id.register_id);
 
         if(getIntent() != null && getIntent().getExtras() != null && getIntent().hasExtra(RegisterActivity.USER_KEY)){
-            User user = (User) getIntent().getSerializableExtra(RegisterActivity.USER_KEY);
+            User user = (User) getIntent().getSerializableExtra(SampleActivity.USER_KEY);
             SystemDataBase.addUser(user);
         }
 
