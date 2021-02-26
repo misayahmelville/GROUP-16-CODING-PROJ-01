@@ -17,7 +17,7 @@ public class DoneRegister extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         log_in_button = (Button) findViewById(R.id.log_in_id);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.register_finished);
+        setContentView(R.layout.activity_done_register);
 
         if(getIntent() != null && getIntent().getExtras() != null && getIntent().hasExtra(RegisterActivity.USER_KEY)){
             user  = (User) getIntent().getSerializableExtra(RegisterActivity.USER_KEY);
