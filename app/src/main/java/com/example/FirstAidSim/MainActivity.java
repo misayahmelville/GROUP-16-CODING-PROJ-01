@@ -21,8 +21,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-//HERE IS MY COMMENT
-// MY COMMENT DOWN HERE
+//This is Joann's comment
 
 public class MainActivity extends AppCompatActivity {
 
